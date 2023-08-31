@@ -1,5 +1,6 @@
-# Diabetics Prediction Jan 2023 – Mar 2023
-### A machine learning model for predicting the possibility of Diabetics.
-- Utilized Scikit-learn packages to train 7 classification models and determined the optimal model with the highest accuracy through a K-Folds Cross-Validation method by comparing the average accuracy values presented in a boxplot chart.
--	Optimized model performance by leveraging GridSearchCV and RandomSearchCV to obtain the appropriate parameters. Achieved 3% improvement in accuracy and resolved overfitting issues in training set.
--	Applied the capabilities of Pandas and NumPy packages to impute the missing values with the median value for the features, scaled the outliers, refined the dataset, and optimized the modeling.
+# Amazon Reviews Sentiment Prediction	Jan 2023 – Mar 2023
+A machine learning model for predicting customer sentiments of Amazon.
+-	Utilized NLTK packages to perform tokenization and stemming for text normalization, removed stop words and punctuation. 
+-	Applied NLP techniques and algorithms to evaluate the prediction model, achieved 93.47% improvement in accuracy.
+-	Extracted top 10 positive words and negative words in review. 
+-	Optimized model performance by leveraging GridSearchCV to obtain the appropriate parameters and resolved imbalanced data by leveraging RandomOverSampler. Achieved a 6% improvement in accuracy and resolved imbalanced data issues.
